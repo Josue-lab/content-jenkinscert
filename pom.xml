@@ -54,8 +54,8 @@
     <finalName>embeddedTomcatSample</finalName>
     <plugins>
         <plugin>
-          <artifactId>maven-compiler-plugin-3.3</artifactId>
-          <version>3.3.0</version>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.1.0</version>
           <configuration>
             <fork>true</fork>
             <executable>C:\Program Files\Java\jdk1.8.0_231\bin\javac.exe</executable>
