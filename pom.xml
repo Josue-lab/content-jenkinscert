@@ -48,6 +48,14 @@
     <finalName>embeddedTomcatSample</finalName>
     <plugins>
         <plugin>
+          <artifactId>maven-ccompiler-plugin</artifactId>
+          <version>3.1.0</version>
+          <configuration>
+            <fork>true</fork>
+            <executable>C:\Program Files\Java\jdk1.8.0_231\bin\javac.exe</executable>
+          </configuration>
+        </plugin>
+        <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>appassembler-maven-plugin</artifactId>
             <version>2.0.0</version>
